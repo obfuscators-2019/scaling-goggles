@@ -1,0 +1,3 @@
+The images saved here will be used in the report to show the base64 conversions (done via cyberchef) of the strings sent via the botnet.
+
+Naming convention is: <function name>-<Encoding Method>.<extension>
