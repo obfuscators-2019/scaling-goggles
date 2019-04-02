@@ -1,0 +1,7 @@
+Subjugating the enemys army without fighting is the true excellence --Sun Tzu...  -- KEY: (ELEPHANT TO HEX)
+
+Its a mistake to think you can solve any major problems with just potatoes --Douglas Adams...... -- KEY (TIGER TO HEX)
+
+NNEDS TO PAD THE REST TO 0'S UNTIL 16 BYTES
+
+(A)ll (E)xplained (S)uccessfully
