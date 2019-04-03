@@ -1,0 +1,10 @@
+C:\Users\40417661\Desktop\test\bot\bin\Debug\bot.exe
+C:\Users\40417661\Desktop\test\bot\bin\Debug\bot.pdb
+C:\Users\40417661\Desktop\test\bot\obj\Debug\bot.csprojResolveAssemblyReference.cache
+C:\Users\40417661\Desktop\test\bot\obj\Debug\bot.exe
+C:\Users\40417661\Desktop\test\bot\obj\Debug\bot.pdb
+C:\Users\40417661\Documents\GitHub\scaling-goggles-obfuscation\Executables\Custom Bot\bot\obj\Debug\bot.exe
+C:\Users\40417661\Documents\GitHub\scaling-goggles-obfuscation\Executables\Custom Bot\bot\obj\Debug\bot.pdb
+C:\Users\40417661\Documents\GitHub\scaling-goggles-obfuscation\Executables\Custom Bot\bot\bin\Debug\bot.exe
+C:\Users\40417661\Documents\GitHub\scaling-goggles-obfuscation\Executables\Custom Bot\bot\bin\Debug\bot.pdb
+C:\Users\40417661\Documents\GitHub\scaling-goggles-obfuscation\Executables\Custom Bot\bot\obj\Debug\bot.csprojResolveAssemblyReference.cache
