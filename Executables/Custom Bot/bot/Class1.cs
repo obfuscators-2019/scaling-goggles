@@ -129,7 +129,7 @@ namespace ns0
 							Console.Write("~");
 							if (text4.ToLower().StartsWith("look"))
 							{
-								this.method_5("look.txt", text);
+								this.method_5("look.txt", text); // stores the value too big to deobfuscate in a txt file
 							}
 							if (text.ToLower().StartsWith("sleep"))
 							{
@@ -240,7 +240,7 @@ namespace ns0
 				textWriter.WriteLine(value);
 				textWriter.Flush();
 				textWriter.Close();
-				File.SetAttributes("out.dat", FileAttributes.Hidden);
+				File.SetAttributes("out.dat", FileAttributes.Hidden); // writes 'value' variable to out.dat
 			}
 			catch (IOException)
 			{
