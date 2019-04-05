@@ -1,0 +1,12 @@
+potentially
+
+alert tcp 5001 ->  ( msg:"sleep..."; flags:AP;  )
+drop tcp any -> 5001 ( msg:"hello"; flags:AP;  )
+drop tcp any -> 5001 ( msg:"<<message>>"; flags:AP;  )
+
+alert tcp any any -> any 5001 ( msg:"hello"; flags:AP; flow:from_client,established;  )
+
+alert tcp any any -> any 5001 ( msg:"hello"; flags:AP; flow:from_client,established;  )
+alert tcp any any -> any any ( msg:"hello"; flags:AP; flow:from_client,established;  )
+
+alert tcp any any -> any 5001 (  pcre:"/hello/"; )
