@@ -1,12 +1,4 @@
-potentially
-
-alert tcp 5001 ->  ( msg:"sleep..."; flags:AP;  )
-drop tcp any -> 5001 ( msg:"hello"; flags:AP;  )
-drop tcp any -> 5001 ( msg:"<<message>>"; flags:AP;  )
-
-alert tcp any any -> any 5001 ( msg:"hello"; flags:AP; flow:from_client,established;  )
-
-alert tcp any any -> any 5001 ( msg:"hello"; flags:AP; flow:from_client,established;  )
-alert tcp any any -> any any ( msg:"hello"; flags:AP; flow:from_client,established;  )
-
-alert tcp any any -> any 5001 (  pcre:"/hello/"; )
+alert tcp any any -  any 5001 ( msg:"Botnet Activity Detected"; sid:35000002; )
+alert tcp any any -  any any ( msg:"Potential new botnet port found"; pcre:"/sleep/i" sid:35000003; )
+alert icmp any any -  any any ( msg:"ICMP traffic detected"; sid:35000004; )
+alert tcp any any -  any any ( msg:"Botnet SYN ACK detected"; flags:AS; sid:35000005; )
